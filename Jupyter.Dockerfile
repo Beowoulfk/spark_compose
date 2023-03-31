@@ -17,6 +17,7 @@ RUN \
 
 RUN pip install -r requirements.txt
 
+
 # Set the AWS credentials
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
